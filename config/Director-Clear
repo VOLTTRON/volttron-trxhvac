@@ -1,0 +1,15 @@
+{
+	"inputs" : {
+		"electricityBidResponse" : {
+			"topic" : "markets/PNNL/BUILDING1/electricity/offer/response",
+			"commodity" : "electricity",
+			"number" : 2
+		}
+	},
+	"outputs" : {
+		"clearRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/clear/request",
+			"value" : {"clear" : true}
+		}
+	}
+}

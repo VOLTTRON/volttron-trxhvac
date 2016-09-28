@@ -1,0 +1,30 @@
+{
+	"inputs" : {
+		"bidRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/electricity/offer/request",
+			"commodity" : "electricity"
+		},
+		"reservationRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/electricity/reservation/request",
+			"commodity" : "electricity"
+		},
+		"clearRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/electricity/clear/request",
+			"commodity" : "electricity"
+		}
+	},
+	"outputs" : {
+		"bidResponse" : {
+			"topic" : "markets/PNNL/BUILDING1/electricity/offer/response",
+			"commodity" : "electricity"
+		},
+		"reservationResponse" : {
+			"topic" : "markets/PNNL/BUILDING1/electricity/reservation/response",
+			"commodity" : "electricity"
+		}
+	},
+	"properties" : {
+		"mode" : "FIXEDPRICE",
+		"price" : 65
+	}
+}

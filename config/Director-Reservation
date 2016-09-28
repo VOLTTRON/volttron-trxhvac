@@ -1,0 +1,238 @@
+{
+	"inputs" : {
+		"ENVIRONMENT Site Outdoor Air Drybulb Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/all",
+			"field" : "OutdoorAirTemperature"
+		},
+		"ZONE-VAV-102 Zone Mean Air Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV102/all",
+			"field" : "ZoneTemperature"
+		},
+		"ZONE-VAV-118 Zone Mean Air Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV118/all",
+			"field" : "ZoneTemperature"
+		},
+		"ZONE-VAV-119 Zone Mean Air Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV119/all",
+			"field" : "ZoneTemperature"
+		},
+		"ZONE-VAV-120 Zone Mean Air Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV120/all",
+			"field" : "ZoneTemperature"
+		},
+		"ZONE-VAV-123A Zone Mean Air Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV123A/all",
+			"field" : "ZoneTemperature"
+		},
+		"ZONE-VAV-123B Zone Mean Air Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV123B/all",
+			"field" : "ZoneTemperature"
+		},
+		"ZONE-VAV-127A Zone Mean Air Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV127A/all",
+			"field" : "ZoneTemperature"
+		},
+		"ZONE-VAV-127B Zone Mean Air Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV127B/all",
+			"field" : "ZoneTemperature"
+		},
+		"ZONE-VAV-129 Zone Mean Air Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV129/all",
+			"field" : "ZoneTemperature"
+		},
+		"ZONE-VAV-131 Zone Mean Air Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV131/all",
+			"field" : "ZoneTemperature"
+		},
+		"ZONE-VAV-133 Zone Mean Air Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV133/all",
+			"field" : "ZoneTemperature"
+		},
+		"ZONE-VAV-136 Zone Mean Air Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV136/all",
+			"field" : "ZoneTemperature"
+		},
+		"ZONE-VAV-142 Zone Mean Air Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV142/all",
+			"field" : "ZoneTemperature"
+		},
+		"ZONE-VAV-143 Zone Mean Air Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV143/all",
+			"field" : "ZoneTemperature"
+		},
+		"ZONE-VAV-150 Zone Mean Air Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV150/all",
+			"field" : "ZoneTemperature"
+		},
+		"ZONE-VAV-100 Zone Mean Air Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV100/all",
+			"field" : "ZoneTemperature"
+		},
+		"ZONE-VAV-121 Zone Mean Air Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV121/all",
+			"field" : "ZoneTemperature"
+		},
+		"ZONE-VAV-102 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV102/all",
+			"field" : "ZoneAirFlow"
+		},
+		"ZONE-VAV-118 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV118/all",
+			"field" : "ZoneAirFlow"
+		},
+		"ZONE-VAV-119 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV119/all",
+			"field" : "ZoneAirFlow"
+		},
+		"ZONE-VAV-120 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV120/all",
+			"field" : "ZoneAirFlow"
+		},
+		"ZONE-VAV-123A VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV123A/all",
+			"field" : "ZoneAirFlow"
+		},
+		"ZONE-VAV-123B VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV123B/all",
+			"field" : "ZoneAirFlow"
+		},
+		"ZONE-VAV-127A VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV127A/all",
+			"field" : "ZoneAirFlow"
+		},
+		"ZONE-VAV-127B VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV127B/all",
+			"field" : "ZoneAirFlow"
+		},
+		"ZONE-VAV-129 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV129/all",
+			"field" : "ZoneAirFlow"
+		},
+		"ZONE-VAV-131 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV131/all",
+			"field" : "ZoneAirFlow"
+		},
+		"ZONE-VAV-133 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV133/all",
+			"field" : "ZoneAirFlow"
+		},
+		"ZONE-VAV-136 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV136/all",
+			"field" : "ZoneAirFlow"
+		},
+		"ZONE-VAV-142 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV142/all",
+			"field" : "ZoneAirFlow"
+		},
+		"ZONE-VAV-143 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV143/all",
+			"field" : "ZoneAirFlow"
+		},
+		"ZONE-VAV-150 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV150/all",
+			"field" : "ZoneAirFlow"
+		},
+		"ZONE-VAV-100 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV100/all",
+			"field" : "ZoneAirFlow"
+		},
+		"ZONE-VAV-121 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV121/all",
+			"field" : "ZoneAirFlow"
+		},
+		"ZONE-VAV-102 VAV BOX OUTLET NODE System Node Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV102/all",
+			"field" : "ZoneDischargeAirTemperature"
+		},
+		"ZONE-VAV-118 VAV BOX OUTLET NODE System Node Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV118/all",
+			"field" : "ZoneDischargeAirTemperature"
+		},
+		"ZONE-VAV-119 VAV BOX OUTLET NODE System Node Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV119/all",
+			"field" : "ZoneDischargeAirTemperature"
+		},
+		"ZONE-VAV-120 VAV BOX OUTLET NODE System Node Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV120/all",
+			"field" : "ZoneDischargeAirTemperature"
+		},
+		"ZONE-VAV-123A VAV BOX OUTLET NODE System Node Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV123A/all",
+			"field" : "ZoneDischargeAirTemperature"
+		},
+		"ZONE-VAV-123B VAV BOX OUTLET NODE System Node Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV123B/all",
+			"field" : "ZoneDischargeAirTemperature"
+		},
+		"ZONE-VAV-127A VAV BOX OUTLET NODE System Node Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV127A/all",
+			"field" : "ZoneDischargeAirTemperature"
+		},
+		"ZONE-VAV-127B VAV BOX OUTLET NODE System Node Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV127B/all",
+			"field" : "ZoneDischargeAirTemperature"
+		},
+		"ZONE-VAV-129 VAV BOX OUTLET NODE System Node Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV129/all",
+			"field" : "ZoneDischargeAirTemperature"
+		},
+		"ZONE-VAV-131 VAV BOX OUTLET NODE System Node Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV131/all",
+			"field" : "ZoneDischargeAirTemperature"
+		},
+		"ZONE-VAV-133 VAV BOX OUTLET NODE System Node Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV133/all",
+			"field" : "ZoneDischargeAirTemperature"
+		},
+		"ZONE-VAV-136 VAV BOX OUTLET NODE System Node Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV136/all",
+			"field" : "ZoneDischargeAirTemperature"
+		},
+		"ZONE-VAV-142 VAV BOX OUTLET NODE System Node Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV142/all",
+			"field" : "ZoneDischargeAirTemperature"
+		},
+		"ZONE-VAV-143 VAV BOX OUTLET NODE System Node Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV143/all",
+			"field" : "ZoneDischargeAirTemperature"
+		},
+		"ZONE-VAV-150 VAV BOX OUTLET NODE System Node Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV150/all",
+			"field" : "ZoneDischargeAirTemperature"
+		},
+		"ZONE-VAV-100 VAV BOX OUTLET NODE System Node Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV100/all",
+			"field" : "ZoneDischargeAirTemperature"
+		},
+		"ZONE-VAV-121 VAV BOX OUTLET NODE System Node Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV121/all",
+			"field" : "ZoneDischargeAirTemperature"
+		},
+		"AHU-001 Supply Equipment Outlet Node System Node Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/all",
+			"field" : "DischargeAirTemperature"
+		},
+		"AHU-001 Supply Equipment Outlet Node System Node Mass Flow Rate" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/all",
+			"field" : "DischargeAirFlow"
+		},
+		"AHU-001 Supply Equipment Inlet Node System Node Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/all",
+			"field" : "ReturnAirTemperature"
+		},
+		"AHU-001 OA CoolCNode System Node Temperature" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/all",
+			"field" : "MixedAirTemperature"
+		},
+		"HVACOperationSchd Schedule Value" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/all",
+			"field" : "SupplyFanStatus"
+		}
+	},
+	"outputs" : {
+		"collectReservationsRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/collectreservations/request",
+			"value" : {"collectReservations" : true}
+		}
+	}
+}

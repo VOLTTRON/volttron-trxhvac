@@ -1,0 +1,12 @@
+{
+	"inputs" : {
+		"electricity quantity" : {
+			"topic" : "markets/PNNL/BUILDING1/electricity/clear/request",
+			"field" : "quantity"
+		},
+		"air quantity" : {
+			"topic" : "markets/PNNL/BUILDING1/air/clear/request",
+			"field" : "quantity"
+		}
+	}
+}
