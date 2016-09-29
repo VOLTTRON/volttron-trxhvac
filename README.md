@@ -45,8 +45,6 @@ $ . make_agent_group.sh [VOLTTRON repository location] example1.txt
 View the log. You will observe the agents log the messages sent back and forth during the market simulation.
 ~~~
 $ tail -f [logfilepath.log]
-~~~
-~~~
 ...
 
 ...
