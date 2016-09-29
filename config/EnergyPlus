@@ -3,7 +3,7 @@
 		"identity" : "platform.actuator",
 		"model" : "~/Code/volttron-trxhvac/eplus/BUILDING1.idf",
 		"weather" : "~/Code/volttron-trxhvac/eplus/USA_WA_Pasco-Tri.Cities.AP.727845_TMY3.epw",
-		"bcvtb_home" : "~/Code/volttron-trxhvac/bcvtb/"
+		"bcvtb_home" : "~/Code/volttron-energyplus/bcvtb/"
 	},
 	"inputs" : {
 		"CLGTEMPSETPOINT ZONE-VAV-102" : {
