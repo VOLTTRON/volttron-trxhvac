@@ -4,7 +4,7 @@ This repository contains a multi-agent transactive market controller for a comme
 
 ## DEPENDENCIES ##
 
-The following instructions assume you have already cloned this repository, and that you have already installed the [PubSub](https://github.com/VOLTTRON/volttron-pubsub), [Market](https://github.com/VOLTTRON/volttron-market), and [Models](https://github.com/VOLTTRON/volttron-models) modules into the VOLTTRON environment's site-packages directory. To run the example market simulation with EnergyPlus, you must also clone the [EnergyPlus](https://github.com/VOLTTRON/volttron-energyplus) modules. To run the plotter agent included in the example you must install the matplotlib module in the VOLLTRON virtual environment, or preferably, put an existing installation of the module on your Python path. The TkAgg backend is needed.
+The following instructions assume you have already cloned this repository, and that you have already installed the [PubSub](../../../volttron-pubsub), [Market](../../../volttron-market), and [Models](../../../volttron-models) modules into the VOLTTRON environment's site-packages directory. To run the example market simulation with EnergyPlus, you must also clone the [EnergyPlus](https://github.com/VOLTTRON/volttron-energyplus) modules. To run the plotter agent included in the example you must install the matplotlib module in the VOLLTRON virtual environment, or preferably, put an existing installation of the module on your Python path. The TkAgg backend is needed.
 
 ## AGENT CONFIGURATION FOR EXAMPLE ##
 
