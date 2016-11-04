@@ -1,0 +1,55 @@
+{
+	"inputs" : {
+		"bidResponse" : {
+			"topic" : "markets/PNNL/BUILDING1/electricity/offer/response",
+			"commodity" : "electricity"
+		},
+		"reservationResponse" : {
+			"topic" : "markets/PNNL/BUILDING1/electricity/reservation/response",
+			"commodity" : "electricity"
+		},
+		"demandCurveRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/electricity/demandcurve/request",
+			"commodity" : "electricity"
+		},
+		"supplyCurveRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/electricity/supplycurve/request",
+			"commodity" : "electricity"
+		},
+		"collectOffersRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/collectoffers/request"
+		},
+		"collectReservationsRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/collectreservations/request"
+		},
+		"clearRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/clear/request"
+		}
+	},
+	"outputs" : {
+		"bidRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/electricity/offer/request",
+			"commodity" : "electricity"
+		},
+		"reservationRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/electricity/reservation/request",
+			"commodity" : "electricity"
+		},
+		"clearRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/electricity/clear/request",
+			"commodity" : "electricity"
+		},
+		"demandCurveResponse" : {
+			"topic" : "markets/PNNL/BUILDING1/electricity/demandcurve/response",
+			"commodity" : "electricity"
+		},
+		"supplyCurveResponse" : {
+			"topic" : "markets/PNNL/BUILDING1/electricity/supplycurve/response",
+			"commodity" : "electricity"
+		}
+	},
+	"properties" : {
+		"name" : "ElectricityMarket",
+		"forceSettle" : "SUPPLY"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"inputs" : {
+		"electricityReservationResponse" : {
+			"topic" : "markets/PNNL/BUILDING1/electricity/reservation/response",
+			"commodity" : "electricity",
+			"number" : 2
+		},
+		"airReservationResponse" : {
+			"topic" : "markets/PNNL/BUILDING1/air/reservation/response",
+			"commodity" : "air",
+			"number" : 18
+		}
+	},
+	"outputs" : {
+		"collectOfferRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/collectoffers/request",
+			"value" : {"collectOffers" : true}
+		}
+	}
+}

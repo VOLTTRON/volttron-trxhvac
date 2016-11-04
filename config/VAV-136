@@ -1,0 +1,77 @@
+{
+	"inputs" : {
+		"bidRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/air/offer/request",
+			"commodity" : "air"
+		},
+		"reservationRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/air/reservation/request",
+			"commodity" : "air"
+		},
+		"clearRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/air/clear/request",
+			"commodity" : "air"
+		},
+		"HVAC_ON" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/all",
+			"field" : "SupplyFanStatus"
+		},
+		"T_out" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/all",
+			"field" : "OutdoorAirTemperature"
+		},
+		"M_dot" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV136/all",
+			"field" : "ZoneAirFlow"
+		},
+		"T_sup" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV136/all",
+			"field" : "ZoneDischargeAirTemperature"
+		},
+		"T_in" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV136/all",
+			"field" : "ZoneTemperature"
+		},
+		"HVAC_T_sup" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/all",
+			"field" : "DischargeAirTemperature"
+		}
+	},
+	"outputs" : {
+		"bidResponse" : {
+			"topic" : "markets/PNNL/BUILDING1/air/offer/response",
+			"commodity" : "air"
+		},
+		"reservationResponse" : {
+			"topic" : "markets/PNNL/BUILDING1/air/reservation/response",
+			"commodity" : "air"
+		},
+		"T_set" : {
+			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV136",
+			"field" : "ZoneCoolingTemperatureSetPoint",
+			"target" : "platform.actuator"
+		}
+	},
+	"properties" : {
+		"name" : "ZONE_VAV_136",
+		"c0" : 0.630385682852055,
+		"c1" : 0.954173419910709,
+		"c2" : 0.0247618920478209,
+		"c3" : 0.00257385544959857,
+		"c4" : -0.00199917929252001,
+		"x0" : -174.913544971278,
+		"x1" : -218.772345595578,
+		"x2" : -5.87750200795996,
+		"x3" : 230.487894005537,
+		"x4" : 0.848787780446131,
+		"tIn" : 21.11,
+		"tMin" : 19.0,
+		"tMax" : 23.0,
+		"mDotMin" : 0,
+		"mDotMax" : 10,
+		"pMin" : 10,
+		"pMax" : 100,
+		"pWin" : 1E6,
+		"nonResponsive" : false
+	}
+}

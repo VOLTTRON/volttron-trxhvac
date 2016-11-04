@@ -1,0 +1,19 @@
+{
+	"outputs" : {
+		"collectOfferRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/collectoffers/request"
+		},
+		"collectReservationsRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/collectreservations/request"
+		},
+		"clearRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/clear/request"
+		}
+	},
+	"properties" : {
+		"marketPeriod" : 300,
+		"reservationDelay" : 270,
+		"offerDelay" : 10,
+		"clearDelay" : 10
+	}
+}

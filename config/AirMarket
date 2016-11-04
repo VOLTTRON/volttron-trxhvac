@@ -1,0 +1,55 @@
+{
+	"inputs" : {
+		"bidResponse" : {
+			"topic" : "markets/PNNL/BUILDING1/air/offer/response",
+			"commodity" : "air"
+		},
+		"reservationResponse" : {
+			"topic" : "markets/PNNL/BUILDING1/air/reservation/response",
+			"commodity" : "air"
+		},
+		"demandCurveRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/air/demandcurve/request",
+			"commodity" : "air"
+		},
+		"supplyCurveRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/air/supplycurve/request",
+			"commodity" : "air"
+		},
+		"collectOffersRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/collectoffers/request"
+		},
+		"collectReservationsRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/collectreservations/request"
+		},
+		"clearRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/clear/request"
+		}
+	},
+	"outputs" : {
+		"bidRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/air/offer/request",
+			"commodity" : "air"
+		},
+		"reservationRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/air/reservation/request",
+			"commodity" : "air"
+		},
+		"clearRequest" : {
+			"topic" : "markets/PNNL/BUILDING1/air/clear/request",
+			"commodity" : "air"
+		},
+		"demandCurveResponse" : {
+			"topic" : "markets/PNNL/BUILDING1/air/demandcurve/response",
+			"commodity" : "air"
+		},
+		"supplyCurveResponse" : {
+			"topic" : "markets/PNNL/BUILDING1/air/supplycurve/response",
+			"commodity" : "air"
+		}
+	},
+	"properties" : {
+		"name" : "AirMarket",
+		"forceSettle" : "SUPPLY"
+	}
+}
