@@ -1,69 +1,69 @@
 {
 	"inputs" : {
 		"sellBidRequest" : {
-			"topic" : "markets/PNNL/BUILDING1/air/offer/request",
+			"topic" : "markets/CAMPUS/BUILDING1/air/offer/request",
 			"commodity" : "air"
 		},
 		"sellReservationRequest" : {
-			"topic" : "markets/PNNL/BUILDING1/air/reservation/request",
+			"topic" : "markets/CAMPUS/BUILDING1/air/reservation/request",
 			"commodity" : "air"
 		},
 		"sellClearRequest" : {
-			"topic" : "markets/PNNL/BUILDING1/air/clear/request",
+			"topic" : "markets/CAMPUS/BUILDING1/air/clear/request",
 			"commodity" : "air"
 		},
 		"buyBidRequest" : {
-			"topic" : "markets/PNNL/BUILDING1/electricity/offer/request",
+			"topic" : "markets/CAMPUS/BUILDING1/electricity/offer/request",
 			"commodity" : "electricity"
 		},
 		"buyReservationRequest" : {
-			"topic" : "markets/PNNL/BUILDING1/electricity/reservation/request",
+			"topic" : "markets/CAMPUS/BUILDING1/electricity/reservation/request",
 			"commodity" : "electricity"
 		},
 		"buyClearRequest" : {
-			"topic" : "markets/PNNL/BUILDING1/electricity/clear/request",
+			"topic" : "markets/CAMPUS/BUILDING1/electricity/clear/request",
 			"commodity" : "electricity"
 		},
 		"demandCurveResponse" : {
-			"topic" : "markets/PNNL/BUILDING1/air/demandcurve/response",
+			"topic" : "markets/CAMPUS/BUILDING1/air/demandcurve/response",
 			"commodity" : "air"
 		},
 		"T_sup" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/all",
 			"field" : "DischargeAirTemperature"
 		},
 		"T_ret" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/all",
 			"field" : "ReturnAirTemperature"
 		},
 		"T_mix" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/all",
 			"field" : "MixedAirTemperature"
 		},
 		"M_dot_air" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/all",
 			"field" : "DischargeAirFlow"
 		}
 	},
 	"outputs" : {
 		"sellBidResponse" : {
-			"topic" : "markets/PNNL/BUILDING1/air/offer/response",
+			"topic" : "markets/CAMPUS/BUILDING1/air/offer/response",
 			"commodity" : "air"
 		},
 		"sellReservationResponse" : {
-			"topic" : "markets/PNNL/BUILDING1/air/reservation/response",
+			"topic" : "markets/CAMPUS/BUILDING1/air/reservation/response",
 			"commodity" : "air"
 		},
 		"demandCurveRequest" : {
-			"topic" : "markets/PNNL/BUILDING1/air/demandcurve/request",
+			"topic" : "markets/CAMPUS/BUILDING1/air/demandcurve/request",
 			"commodity" : "air"
 		},
 		"buyBidResponse" : {
-			"topic" : "markets/PNNL/BUILDING1/electricity/offer/response",
+			"topic" : "markets/CAMPUS/BUILDING1/electricity/offer/response",
 			"commodity" : "electricity"
 		},
 		"buyReservationResponse" : {
-			"topic" : "markets/PNNL/BUILDING1/electricity/reservation/response",
+			"topic" : "markets/CAMPUS/BUILDING1/electricity/reservation/response",
 			"commodity" : "electricity"
 		}
 	},

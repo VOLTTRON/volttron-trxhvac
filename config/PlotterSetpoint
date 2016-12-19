@@ -1,71 +1,71 @@
 {
 	"inputs" : {
 		"CLGTEMPSETPOINT ZONE-VAV-102" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV102",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV102",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-118" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV118",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV118",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-119" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV119",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV119",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-120" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV120",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV120",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-123A" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV123A",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV123A",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-123B" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV123B",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV123B",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-127A" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV127A",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV127A",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-127B" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV127B",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV127B",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-129" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV129",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV129",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-131" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV131",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV131",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-133" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV133",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV133",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-136" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV136",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV136",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-142" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV142",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV142",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-143" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV143",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV143",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-150" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV150",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV150",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-100" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV100",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV100",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-121" : {
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV121",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV121",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		}
 	}

@@ -1,13 +1,13 @@
 {
 	"outputs" : {
 		"collectOfferRequest" : {
-			"topic" : "markets/PNNL/BUILDING1/collectoffers/request"
+			"topic" : "markets/CAMPUS/BUILDING1/collectoffers/request"
 		},
 		"collectReservationsRequest" : {
-			"topic" : "markets/PNNL/BUILDING1/collectreservations/request"
+			"topic" : "markets/CAMPUS/BUILDING1/collectreservations/request"
 		},
 		"clearRequest" : {
-			"topic" : "markets/PNNL/BUILDING1/clear/request"
+			"topic" : "markets/CAMPUS/BUILDING1/clear/request"
 		}
 	},
 	"properties" : {
