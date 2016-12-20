@@ -171,15 +171,6 @@ class RtuAgent(BuyerAgent, FirstOrderZone, RtuRegression):
             self.qClear = 0.
             self.eClear = 0.
             
-            
-    def getT(self, qHvac):
-        if self.mode == RtuAgent.COOLING:
-            ratio = 2.0*(0.5-abs(qHvac/self.calcCoolCapacity()))
-        else:
-            ratio = 2.0*(abs(qHvac/self.calcHeatCapacity())-0.5)
-        tSet = self.tIn + ratio * self.tDel
-        return tSet
-
     
     def updatePrice(self, clearPrice):
         self.pClear = clearPrice
