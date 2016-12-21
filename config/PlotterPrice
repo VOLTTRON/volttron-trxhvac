@@ -1,11 +1,11 @@
 {
 	"inputs" : {
 		"electricity price" : {
-			"topic" : "markets/PNNL/BUILDING1/electricity/clear/request",
+			"topic" : "markets/CAMPUS/BUILDING1/electricity/clear/request",
 			"field" : "price"
 		},
 		"air price" : {
-			"topic" : "markets/PNNL/BUILDING1/air/clear/request",
+			"topic" : "markets/CAMPUS/BUILDING1/air/clear/request",
 			"field" : "price"
 		}
 	}

@@ -1,14 +1,14 @@
 {
 	"inputs" : {
 		"electricityBidResponse" : {
-			"topic" : "markets/PNNL/BUILDING1/electricity/offer/response",
+			"topic" : "markets/CAMPUS/BUILDING1/electricity/offer/response",
 			"commodity" : "electricity",
 			"number" : 2
 		}
 	},
 	"outputs" : {
 		"clearRequest" : {
-			"topic" : "markets/PNNL/BUILDING1/clear/request",
+			"topic" : "markets/CAMPUS/BUILDING1/clear/request",
 			"value" : {"clear" : true}
 		}
 	}

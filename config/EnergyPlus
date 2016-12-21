@@ -9,103 +9,103 @@
 		"CLGTEMPSETPOINT ZONE-VAV-102" : {
 			"name" : "CLGTEMPSETPOINT ZONE-VAV-102",
 			"type" : "schedule",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV102",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV102",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-118" : {
 			"name" : "CLGTEMPSETPOINT ZONE-VAV-118",
 			"type" : "schedule",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV118",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV118",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-119" : {
 			"name" : "CLGTEMPSETPOINT ZONE-VAV-119",
 			"type" : "schedule",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV119",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV119",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-120" : {
 			"name" : "CLGTEMPSETPOINT ZONE-VAV-120",
 			"type" : "schedule",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV120",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV120",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-123A" : {
 			"name" : "CLGTEMPSETPOINT ZONE-VAV-123A",
 			"type" : "schedule",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV123A",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV123A",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-123B" : {
 			"name" : "CLGTEMPSETPOINT ZONE-VAV-123B",
 			"type" : "schedule",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV123B",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV123B",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-127A" : {
 			"name" : "CLGTEMPSETPOINT ZONE-VAV-127A",
 			"type" : "schedule",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV127A",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV127A",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-127B" : {
 			"name" : "CLGTEMPSETPOINT ZONE-VAV-127B",
 			"type" : "schedule",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV127B",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV127B",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-129" : {
 			"name" : "CLGTEMPSETPOINT ZONE-VAV-129",
 			"type" : "schedule",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV129",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV129",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-131" : {
 			"name" : "CLGTEMPSETPOINT ZONE-VAV-131",
 			"type" : "schedule",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV131",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV131",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-133" : {
 			"name" : "CLGTEMPSETPOINT ZONE-VAV-133",
 			"type" : "schedule",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV133",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV133",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-136" : {
 			"name" : "CLGTEMPSETPOINT ZONE-VAV-136",
 			"type" : "schedule",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV136",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV136",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-142" : {
 			"name" : "CLGTEMPSETPOINT ZONE-VAV-142",
 			"type" : "schedule",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV142",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV142",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-143" : {
 			"name" : "CLGTEMPSETPOINT ZONE-VAV-143",
 			"type" : "schedule",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV143",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV143",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-150" : {
 			"name" : "CLGTEMPSETPOINT ZONE-VAV-150",
 			"type" : "schedule",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV150",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV150",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-100" : {
 			"name" : "CLGTEMPSETPOINT ZONE-VAV-CORRIDOR",
 			"type" : "schedule",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV100",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV100",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		},
 		"CLGTEMPSETPOINT ZONE-VAV-121" : {
 			"name" : "CLGTEMPSETPOINT ZONE-VAV-RESTROOM",
 			"type" : "schedule",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV121",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV121",
 			"field" : "ZoneCoolingTemperatureSetPoint"
 		}
 	},
@@ -113,399 +113,399 @@
 		"ENVIRONMENT Site Outdoor Air Drybulb Temperature" : {
 			"name" : "ENVIRONMENT",
 			"type" : "Site Outdoor Air Drybulb Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/all",
 			"field" : "OutdoorAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-102 Zone Mean Air Temperature" : {
 			"name" : "ZONE-VAV-102",
 			"type" : "Zone Mean Air Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV102/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV102/all",
 			"field" : "ZoneTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-118 Zone Mean Air Temperature" : {
 			"name" : "ZONE-VAV-118",
 			"type" : "Zone Mean Air Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV118/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV118/all",
 			"field" : "ZoneTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-119 Zone Mean Air Temperature" : {
 			"name" : "ZONE-VAV-119",
 			"type" : "Zone Mean Air Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV119/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV119/all",
 			"field" : "ZoneTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-120 Zone Mean Air Temperature" : {
 			"name" : "ZONE-VAV-120",
 			"type" : "Zone Mean Air Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV120/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV120/all",
 			"field" : "ZoneTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-123A Zone Mean Air Temperature" : {
 			"name" : "ZONE-VAV-123A",
 			"type" : "Zone Mean Air Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV123A/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV123A/all",
 			"field" : "ZoneTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-123B Zone Mean Air Temperature" : {
 			"name" : "ZONE-VAV-123B",
 			"type" : "Zone Mean Air Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV123B/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV123B/all",
 			"field" : "ZoneTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-127A Zone Mean Air Temperature" : {
 			"name" : "ZONE-VAV-127A",
 			"type" : "Zone Mean Air Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV127A/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV127A/all",
 			"field" : "ZoneTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-127B Zone Mean Air Temperature" : {
 			"name" : "ZONE-VAV-127B",
 			"type" : "Zone Mean Air Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV127B/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV127B/all",
 			"field" : "ZoneTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-129 Zone Mean Air Temperature" : {
 			"name" : "ZONE-VAV-129",
 			"type" : "Zone Mean Air Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV129/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV129/all",
 			"field" : "ZoneTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-131 Zone Mean Air Temperature" : {
 			"name" : "ZONE-VAV-131",
 			"type" : "Zone Mean Air Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV131/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV131/all",
 			"field" : "ZoneTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-133 Zone Mean Air Temperature" : {
 			"name" : "ZONE-VAV-133",
 			"type" : "Zone Mean Air Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV133/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV133/all",
 			"field" : "ZoneTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-136 Zone Mean Air Temperature" : {
 			"name" : "ZONE-VAV-136",
 			"type" : "Zone Mean Air Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV136/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV136/all",
 			"field" : "ZoneTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-142 Zone Mean Air Temperature" : {
 			"name" : "ZONE-VAV-142",
 			"type" : "Zone Mean Air Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV142/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV142/all",
 			"field" : "ZoneTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-143 Zone Mean Air Temperature" : {
 			"name" : "ZONE-VAV-143",
 			"type" : "Zone Mean Air Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV143/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV143/all",
 			"field" : "ZoneTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-150 Zone Mean Air Temperature" : {
 			"name" : "ZONE-VAV-150",
 			"type" : "Zone Mean Air Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV150/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV150/all",
 			"field" : "ZoneTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-100 Zone Mean Air Temperature" : {
 			"name" : "ZONE-VAV-CORRIDOR",
 			"type" : "Zone Mean Air Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV100/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV100/all",
 			"field" : "ZoneTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-121 Zone Mean Air Temperature" : {
 			"name" : "ZONE-VAV-RESTROOM",
 			"type" : "Zone Mean Air Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV121/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV121/all",
 			"field" : "ZoneTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-102 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
 			"name" : "ZONE-VAV-102 VAV BOX OUTLET NODE",
 			"type" : "System Node Mass Flow Rate",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV102/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV102/all",
 			"field" : "ZoneAirFlow",
 			"meta" : {"units": "cubicMetersPerSecond", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-118 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
 			"name" : "ZONE-VAV-118 VAV BOX OUTLET NODE",
 			"type" : "System Node Mass Flow Rate",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV118/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV118/all",
 			"field" : "ZoneAirFlow",
 			"meta" : {"units": "cubicMetersPerSecond", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-119 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
 			"name" : "ZONE-VAV-119 VAV BOX OUTLET NODE",
 			"type" : "System Node Mass Flow Rate",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV119/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV119/all",
 			"field" : "ZoneAirFlow",
 			"meta" : {"units": "cubicMetersPerSecond", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-120 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
 			"name" : "ZONE-VAV-120 VAV BOX OUTLET NODE",
 			"type" : "System Node Mass Flow Rate",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV120/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV120/all",
 			"field" : "ZoneAirFlow",
 			"meta" : {"units": "cubicMetersPerSecond", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-123A VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
 			"name" : "ZONE-VAV-123A VAV BOX OUTLET NODE",
 			"type" : "System Node Mass Flow Rate",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV123A/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV123A/all",
 			"field" : "ZoneAirFlow",
 			"meta" : {"units": "cubicMetersPerSecond", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-123B VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
 			"name" : "ZONE-VAV-123B VAV BOX OUTLET NODE",
 			"type" : "System Node Mass Flow Rate",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV123B/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV123B/all",
 			"field" : "ZoneAirFlow",
 			"meta" : {"units": "cubicMetersPerSecond", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-127A VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
 			"name" : "ZONE-VAV-127A VAV BOX OUTLET NODE",
 			"type" : "System Node Mass Flow Rate",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV127A/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV127A/all",
 			"field" : "ZoneAirFlow",
 			"meta" : {"units": "cubicMetersPerSecond", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-127B VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
 			"name" : "ZONE-VAV-127B VAV BOX OUTLET NODE",
 			"type" : "System Node Mass Flow Rate",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV127B/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV127B/all",
 			"field" : "ZoneAirFlow",
 			"meta" : {"units": "cubicMetersPerSecond", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-129 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
 			"name" : "ZONE-VAV-129 VAV BOX OUTLET NODE",
 			"type" : "System Node Mass Flow Rate",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV129/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV129/all",
 			"field" : "ZoneAirFlow",
 			"meta" : {"units": "cubicMetersPerSecond", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-131 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
 			"name" : "ZONE-VAV-131 VAV BOX OUTLET NODE",
 			"type" : "System Node Mass Flow Rate",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV131/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV131/all",
 			"field" : "ZoneAirFlow",
 			"meta" : {"units": "cubicMetersPerSecond", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-133 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
 			"name" : "ZONE-VAV-133 VAV BOX OUTLET NODE",
 			"type" : "System Node Mass Flow Rate",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV133/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV133/all",
 			"field" : "ZoneAirFlow",
 			"meta" : {"units": "cubicMetersPerSecond", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-136 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
 			"name" : "ZONE-VAV-136 VAV BOX OUTLET NODE",
 			"type" : "System Node Mass Flow Rate",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV136/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV136/all",
 			"field" : "ZoneAirFlow",
 			"meta" : {"units": "cubicMetersPerSecond", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-142 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
 			"name" : "ZONE-VAV-142 VAV BOX OUTLET NODE",
 			"type" : "System Node Mass Flow Rate",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV142/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV142/all",
 			"field" : "ZoneAirFlow",
 			"meta" : {"units": "cubicMetersPerSecond", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-143 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
 			"name" : "ZONE-VAV-143 VAV BOX OUTLET NODE",
 			"type" : "System Node Mass Flow Rate",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV143/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV143/all",
 			"field" : "ZoneAirFlow",
 			"meta" : {"units": "cubicMetersPerSecond", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-150 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
 			"name" : "ZONE-VAV-150 VAV BOX OUTLET NODE",
 			"type" : "System Node Mass Flow Rate",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV150/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV150/all",
 			"field" : "ZoneAirFlow",
 			"meta" : {"units": "cubicMetersPerSecond", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-100 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
 			"name" : "ZONE-VAV-CORRIDOR VAV BOX OUTLET NODE",
 			"type" : "System Node Mass Flow Rate",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV100/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV100/all",
 			"field" : "ZoneAirFlow",
 			"meta" : {"units": "cubicMetersPerSecond", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-121 VAV BOX OUTLET NODE System Node Mass Flow Rate" : {
 			"name" : "ZONE-VAV-RESTROOM VAV BOX OUTLET NODE",
 			"type" : "System Node Mass Flow Rate",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV121/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV121/all",
 			"field" : "ZoneAirFlow",
 			"meta" : {"units": "cubicMetersPerSecond", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-102 VAV BOX OUTLET NODE System Node Temperature" : {
 			"name" : "ZONE-VAV-102 VAV BOX OUTLET NODE",
 			"type" : "System Node Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV102/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV102/all",
 			"field" : "ZoneDischargeAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-118 VAV BOX OUTLET NODE System Node Temperature" : {
 			"name" : "ZONE-VAV-118 VAV BOX OUTLET NODE",
 			"type" : "System Node Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV118/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV118/all",
 			"field" : "ZoneDischargeAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-119 VAV BOX OUTLET NODE System Node Temperature" : {
 			"name" : "ZONE-VAV-119 VAV BOX OUTLET NODE",
 			"type" : "System Node Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV119/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV119/all",
 			"field" : "ZoneDischargeAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-120 VAV BOX OUTLET NODE System Node Temperature" : {
 			"name" : "ZONE-VAV-120 VAV BOX OUTLET NODE",
 			"type" : "System Node Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV120/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV120/all",
 			"field" : "ZoneDischargeAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-123A VAV BOX OUTLET NODE System Node Temperature" : {
 			"name" : "ZONE-VAV-123A VAV BOX OUTLET NODE",
 			"type" : "System Node Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV123A/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV123A/all",
 			"field" : "ZoneDischargeAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-123B VAV BOX OUTLET NODE System Node Temperature" : {
 			"name" : "ZONE-VAV-123B VAV BOX OUTLET NODE",
 			"type" : "System Node Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV123B/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV123B/all",
 			"field" : "ZoneDischargeAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-127A VAV BOX OUTLET NODE System Node Temperature" : {
 			"name" : "ZONE-VAV-127A VAV BOX OUTLET NODE",
 			"type" : "System Node Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV127A/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV127A/all",
 			"field" : "ZoneDischargeAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-127B VAV BOX OUTLET NODE System Node Temperature" : {
 			"name" : "ZONE-VAV-127B VAV BOX OUTLET NODE",
 			"type" : "System Node Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV127B/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV127B/all",
 			"field" : "ZoneDischargeAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-129 VAV BOX OUTLET NODE System Node Temperature" : {
 			"name" : "ZONE-VAV-129 VAV BOX OUTLET NODE",
 			"type" : "System Node Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV129/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV129/all",
 			"field" : "ZoneDischargeAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-131 VAV BOX OUTLET NODE System Node Temperature" : {
 			"name" : "ZONE-VAV-131 VAV BOX OUTLET NODE",
 			"type" : "System Node Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV131/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV131/all",
 			"field" : "ZoneDischargeAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-133 VAV BOX OUTLET NODE System Node Temperature" : {
 			"name" : "ZONE-VAV-133 VAV BOX OUTLET NODE",
 			"type" : "System Node Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV133/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV133/all",
 			"field" : "ZoneDischargeAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-136 VAV BOX OUTLET NODE System Node Temperature" : {
 			"name" : "ZONE-VAV-136 VAV BOX OUTLET NODE",
 			"type" : "System Node Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV136/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV136/all",
 			"field" : "ZoneDischargeAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-142 VAV BOX OUTLET NODE System Node Temperature" : {
 			"name" : "ZONE-VAV-142 VAV BOX OUTLET NODE",
 			"type" : "System Node Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV142/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV142/all",
 			"field" : "ZoneDischargeAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-143 VAV BOX OUTLET NODE System Node Temperature" : {
 			"name" : "ZONE-VAV-143 VAV BOX OUTLET NODE",
 			"type" : "System Node Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV143/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV143/all",
 			"field" : "ZoneDischargeAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-150 VAV BOX OUTLET NODE System Node Temperature" : {
 			"name" : "ZONE-VAV-150 VAV BOX OUTLET NODE",
 			"type" : "System Node Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV150/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV150/all",
 			"field" : "ZoneDischargeAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-100 VAV BOX OUTLET NODE System Node Temperature" : {
 			"name" : "ZONE-VAV-CORRIDOR VAV BOX OUTLET NODE",
 			"type" : "System Node Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV100/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV100/all",
 			"field" : "ZoneDischargeAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"ZONE-VAV-121 VAV BOX OUTLET NODE System Node Temperature" : {
 			"name" : "ZONE-VAV-RESTROOM VAV BOX OUTLET NODE",
 			"type" : "System Node Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/VAV121/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV121/all",
 			"field" : "ZoneDischargeAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"AHU-001 Supply Equipment Outlet Node System Node Temperature" : {
 			"name" : "AHU-001 Supply Equipment Outlet Node",
 			"type" : "System Node Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/all",
 			"field" : "DischargeAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"AHU-001 Supply Equipment Outlet Node System Node Mass Flow Rate" : {
 			"name" : "AHU-001 Supply Equipment Outlet Node",
 			"type" : "System Node Mass Flow Rate",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/all",
 			"field" : "DischargeAirFlow",
 			"meta" : {"units": "cubicMetersPerSecond", "tz": "US/Pacific", "type": "float"}
 		},
 		"AHU-001 Supply Equipment Inlet Node System Node Temperature" : {
 			"name" : "AHU-001 Supply Equipment Inlet Node",
 			"type" : "System Node Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/all",
 			"field" : "ReturnAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"AHU-001 OA CoolCNode System Node Temperature" : {
 			"name" : "AHU-001 OA CoolCNode",
 			"type" : "System Node Temperature",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/all",
 			"field" : "MixedAirTemperature",
 			"meta" : {"units": "degreesCentigrade", "tz": "US/Pacific", "type": "float"}
 		},
 		"HVACOperationSchd Schedule Value" : {
 			"name" : "HVACOperationSchd",
 			"type" : "Schedule Value",
-			"topic" : "devices/PNNL/BUILDING1/AHU1/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/all",
 			"field" : "SupplyFanStatus",
 			"meta" : {"units": "Enum", "tz": "US/Pacific", "type": "float"}
 		}
