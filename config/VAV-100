@@ -21,15 +21,15 @@
 			"field" : "OutdoorAirTemperature"
 		},
 		"M_dot" : {
-			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV121/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV100/all",
 			"field" : "ZoneAirFlow"
 		},
 		"T_sup" : {
-			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV121/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV100/all",
 			"field" : "ZoneDischargeAirTemperature"
 		},
 		"T_in" : {
-			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV121/all",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV100/all",
 			"field" : "ZoneTemperature"
 		},
 		"HVAC_T_sup" : {
@@ -47,23 +47,23 @@
 			"commodity" : "air"
 		},
 		"T_set" : {
-			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV121",
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV100",
 			"field" : "ZoneCoolingTemperatureSetPoint",
 			"target" : "platform.actuator"
 		}
 	},
 	"properties" : {
-		"name" : "ZONE_RESTROOM",
-		"c0" : 1.9090459318201,
-		"c1" : 0.931734353763856,
-		"c2" : 0.00937962048488214,
-		"c3" : 0.0026170451505717,
-		"c4" : -0.00181171005359051,
-		"x0" : -499.16117024967,
-		"x1" : -225.06536333698,
-		"x2" : -1.96591959708803,
-		"x3" : 242.419589293068,
-		"x4" : 0.787969288744707,
+		"name" : "ZONE_VAV_100",
+		"c0" : 1.01386409880145,
+		"c1" : 0.953144716622987,
+		"c2" : 0.00545018512700727,
+		"c3" : 0.000121431453080381,
+		"c4" : -7.22295050699413e-05,
+		"x0" : -4178.06293682588,
+		"x1" : -3317.62640992075,
+		"x2" : -17.175507151531,
+		"x3" : 3504.19892741115,
+		"x4" : 0.796390547860208,
 		"tIn" : 21.11,
 		"tMin" : 19.0,
 		"tMax" : 23.0,
