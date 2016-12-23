@@ -1,0 +1,662 @@
+{
+	"properties" : {
+		"masterMax" : 80.0,
+		"masterMin" : 65.0,
+		"occCoolMax" : 75.0,
+		"occCoolMin" : 68.0,
+		"occHeatMax" : 73.0,
+		"occHeatMin" : 66.0,
+		"occTempOffset" : 2.0,
+		"standbyCoolMax" : 78.0,
+		"standbyCoolMin" : 68.0,
+		"standbyHeatMax" : 76.0,
+		"standbyHeatMin" : 66.0,
+		"standbyTempOffset" : 4.0,
+		"unoccCoolMax" : 80.0,
+		"unoccCoolMin" : 67.0,
+		"unoccHeatMax" : 78.0,
+		"unoccHeatMin" : 65.0,
+		"reservationLength" : 180,
+		"isActuating" : 0,
+		"isConnected" : 0,
+		"setAllPoints" : 0,
+		"actuator_vip" : "tcp://XXX.XXX.XXX.XXX:XXXX?serverkey=XXX" #update with your ip, port and serverkey
+	},
+	"inputs" : {
+		"isActuating" : {
+			"topic" : "BUILDING1/ACTUATE"
+		},
+		"isConnected" : {
+			"topic" : "BUILDING1/CONNECT"
+		},
+		"kill" : {
+			"topic" : "BUILDING1/KILL"
+		},
+		"VAV102-CLGSP" : {
+			"topic" : "BUILDING1/VAV102-CLGSP",
+			"forward" : [
+				{"name" : "VAV102-CLGSP", "transform" : "C2F"}
+			]
+		},
+		"VAV118-CLGSP" : {
+			"topic" : "BUILDING1/VAV118-CLGSP",
+			"forward" : [
+				{"name" : "VAV118-CLGSP", "transform" : "C2F"}
+			]
+		},
+		"VAV119-CLGSP" : {
+			"topic" : "BUILDING1/VAV119-CLGSP",
+			"forward" : [
+				{"name" : "VAV119-CLGSP", "transform" : "C2F"}
+			]
+		},
+		"VAV120-CLGSP" : {
+			"topic" : "BUILDING1/VAV120-CLGSP",
+			"forward" : [
+				{"name" : "VAV120-CLGSP", "transform" : "C2F"}
+			]
+		},
+		"VAV123A-CLGSP" : {
+			"topic" : "BUILDING1/VAV123A-CLGSP",
+			"forward" : [
+				{"name" : "VAV123A-CLGSP", "transform" : "C2F"}
+			]
+		},
+		"VAV123B-CLGSP" : {
+			"topic" : "BUILDING1/VAV123B-CLGSP",
+			"forward" : [
+				{"name" : "VAV123B-CLGSP", "transform" : "C2F"}
+			]
+		},
+		"VAV127A-CLGSP" : {
+			"topic" : "BUILDING1/VAV127A-CLGSP",
+			"forward" : [
+				{"name" : "VAV127A-CLGSP", "transform" : "C2F"}
+			]
+		},
+		"VAV127B-CLGSP" : {
+			"topic" : "BUILDING1/VAV127B-CLGSP",
+			"forward" : [
+				{"name" : "VAV127B-CLGSP", "transform" : "C2F"}
+			]
+		},
+		"VAV129-CLGSP" : {
+			"topic" : "BUILDING1/VAV129-CLGSP",
+			"forward" : [
+				{"name" : "VAV129-CLGSP", "transform" : "C2F"}
+			]
+		},
+		"VAV131-CLGSP" : {
+			"topic" : "BUILDING1/VAV131-CLGSP",
+			"forward" : [
+				{"name" : "VAV131-CLGSP", "transform" : "C2F"}
+			]
+		},
+		"VAV133-CLGSP" : {
+			"topic" : "BUILDING1/VAV133-CLGSP",
+			"forward" : [
+				{"name" : "VAV133-CLGSP", "transform" : "C2F"}
+			]
+		},
+		"VAV136-CLGSP" : {
+			"topic" : "BUILDING1/VAV136-CLGSP",
+			"forward" : [
+				{"name" : "VAV136-CLGSP", "transform" : "C2F"}
+			]
+		},
+		"VAV142-CLGSP" : {
+			"topic" : "BUILDING1/VAV142-CLGSP",
+			"forward" : [
+				{"name" : "VAV142-CLGSP", "transform" : "C2F"}
+			]
+		},
+		"VAV143-CLGSP" : {
+			"topic" : "BUILDING1/VAV143-CLGSP",
+			"forward" : [
+				{"name" : "VAV143-CLGSP", "transform" : "C2F"}
+			]
+		},
+		"VAV150-CLGSP" : {
+			"topic" : "BUILDING1/VAV150-CLGSP",
+			"forward" : [
+				{"name" : "VAV150-CLGSP", "transform" : "C2F"}
+			]
+		},
+		"VAV100-CLGSP" : {
+			"topic" : "BUILDING1/VAV100-CLGSP",
+			"forward" : [
+				{"name" : "VAV100-CLGSP", "transform" : "C2F"}
+			]
+		},
+		"VAV121-CLGSP" : {
+			"topic" : "BUILDING1/VAV121-CLGSP",
+			"forward" : [
+				{"name" : "VAV121-CLGSP", "transform" : "C2F"}
+			]
+		},
+		"AHU001" : {
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/all",
+			"forward" : [
+				{"name" : "AHU001-MIXED-TEMP", "field" : "MixedAirTemperature", "transform" : "F2C"},
+				{"name" : "AHU001-SUPPLY-TEMP", "field" : "DischargeAirTemperature", "transform" : "F2C"},
+				{"name" : "AHU001-RETURN-TEMP", "field" : "ReturnAirTemperature", "transform" : "F2C"},
+				{"name" : "OUTDOOR-TEMP", "field" : "OutdoorAirTemperature", "transform" : "F2C"},
+				{"name" : "AHU001-ONOFF", "field" : "SupplyFanStatus"},
+				{"name" : "AHU001-FLOW-RATE", "field" : "DischargeAirFlow", "transform" : "CFM2KGS"},
+				{"name" : "AHU001-STATIC-PRESSURE", "field" : "DuctStaticPressure", "transform" : "IN2PA"}
+			]
+		},
+		"VAV100" : {
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV100/all",
+			"forward" : [
+				{"name" : "VAV100-ZONE-TEMP", "field" : "ZoneTemperature", "transform" : "F2C"},
+				{"name" : "VAV100-SUPPLY-TEMP", "field" : "ZoneDischargeAirTemperature", "transform" : "F2C"},
+				{"name" : "VAV100-FLOW-RATE", "field" : "ZoneAirFlow", "transform" : "CFM2KGS"},
+				{"name" : "VAV100-STANDBY", "field" : "StandbyModeStatus"},
+				{"name" : "VAV100-OCCUPANCY", "field" : "OccupancyMode"}
+			]
+		},
+		"VAV102" : {
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV102/all",
+			"forward" : [
+				{"name" : "VAV102-ZONE-TEMP", "field" : "ZoneTemperature", "transform" : "F2C"},
+				{"name" : "VAV102-SUPPLY-TEMP", "field" : "ZoneDischargeAirTemperature", "transform" : "F2C"},
+				{"name" : "VAV102-FLOW-RATE", "field" : "ZoneAirFlow", "transform" : "CFM2KGS"},
+				{"name" : "VAV102-STANDBY", "field" : "StandbyModeStatus"},
+				{"name" : "VAV102-OCCUPANCY", "field" : "OccupancyMode"}
+			]
+		},
+		"VAV118" : {
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV118/all",
+			"forward" : [
+				{"name" : "VAV118-ZONE-TEMP", "field" : "ZoneTemperature", "transform" : "F2C"},
+				{"name" : "VAV118-SUPPLY-TEMP", "field" : "ZoneDischargeAirTemperature", "transform" : "F2C"},
+				{"name" : "VAV118-FLOW-RATE", "field" : "ZoneAirFlow", "transform" : "CFM2KGS"},
+				{"name" : "VAV118-STANDBY", "field" : "StandbyModeStatus"},
+				{"name" : "VAV118-OCCUPANCY", "field" : "OccupancyMode"}
+			]
+		},
+		"VAV119" : {
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV119/all",
+			"forward" : [
+				{"name" : "VAV119-ZONE-TEMP", "field" : "ZoneTemperature", "transform" : "F2C"},
+				{"name" : "VAV119-SUPPLY-TEMP", "field" : "ZoneDischargeAirTemperature", "transform" : "F2C"},
+				{"name" : "VAV119-FLOW-RATE", "field" : "ZoneAirFlow", "transform" : "CFM2KGS"},
+				{"name" : "VAV119-STANDBY", "field" : "StandbyModeStatus"},
+				{"name" : "VAV119-OCCUPANCY", "field" : "OccupancyMode"}
+			]
+		},
+		"VAV120" : {
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV120/all",
+			"forward" : [
+				{"name" : "VAV120-ZONE-TEMP", "field" : "ZoneTemperature", "transform" : "F2C"},
+				{"name" : "VAV120-SUPPLY-TEMP", "field" : "ZoneDischargeAirTemperature", "transform" : "F2C"},
+				{"name" : "VAV120-FLOW-RATE", "field" : "ZoneAirFlow", "transform" : "CFM2KGS"},
+				{"name" : "VAV120-STANDBY", "field" : "StandbyModeStatus"},
+				{"name" : "VAV120-OCCUPANCY", "field" : "OccupancyMode"}
+			]
+		},
+		"VAV121" : {
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV121/all",
+			"forward" : [
+				{"name" : "VAV121-ZONE-TEMP", "field" : "ZoneTemperature", "transform" : "F2C"},
+				{"name" : "VAV121-SUPPLY-TEMP", "field" : "ZoneDischargeAirTemperature", "transform" : "F2C"},
+				{"name" : "VAV121-FLOW-RATE", "field" : "ZoneAirFlow", "transform" : "CFM2KGS"},
+				{"name" : "VAV121-STANDBY", "field" : "StandbyModeStatus"},
+				{"name" : "VAV121-OCCUPANCY", "field" : "OccupancyMode"}
+			]
+		},
+		"VAV123A" : {
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV123A/all",
+			"forward" : [
+				{"name" : "VAV123A-ZONE-TEMP", "field" : "ZoneTemperature", "transform" : "F2C"},
+				{"name" : "VAV123A-SUPPLY-TEMP", "field" : "ZoneDischargeAirTemperature", "transform" : "F2C"},
+				{"name" : "VAV123A-FLOW-RATE", "field" : "ZoneAirFlow", "transform" : "CFM2KGS"},
+				{"name" : "VAV123B-ZONE-TEMP", "field" : "ZoneTemperature", "transform" : "F2C"},
+				{"name" : "VAV123A-STANDBY", "field" : "StandbyModeStatus"},
+				{"name" : "VAV123A-OCCUPANCY", "field" : "OccupancyMode"},
+				{"name" : "VAV123B-STANDBY", "field" : "StandbyModeStatus"}
+			]
+		},
+		"VAV123B" : {
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV123B/all",
+			"forward" : [
+				{"name" : "VAV123B-SUPPLY-TEMP", "field" : "ZoneDischargeAirTemperature", "transform" : "F2C"},
+				{"name" : "VAV123B-FLOW-RATE", "field" : "ZoneAirFlow", "transform" : "CFM2KGS"},
+				{"name" : "VAV123B-OCCUPANCY", "field" : "OccupancyMode"}
+			]
+		},
+		"VAV127A" : {
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV127A/all",
+			"forward" : [
+				{"name" : "VAV127A-ZONE-TEMP", "field" : "ZoneTemperature", "transform" : "F2C"},
+				{"name" : "VAV127A-SUPPLY-TEMP", "field" : "ZoneDischargeAirTemperature", "transform" : "F2C"},
+				{"name" : "VAV127A-FLOW-RATE", "field" : "ZoneAirFlow", "transform" : "CFM2KGS"},
+				{"name" : "VAV127A-STANDBY", "field" : "StandbyModeStatus"},
+				{"name" : "VAV127A-OCCUPANCY", "field" : "OccupancyMode"}
+			]
+		},
+		"VAV127B" : {
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV127B/all",
+			"forward" : [
+				{"name" : "VAV127B-ZONE-TEMP", "field" : "ZoneTemperature", "transform" : "F2C"},
+				{"name" : "VAV127B-SUPPLY-TEMP", "field" : "ZoneDischargeAirTemperature", "transform" : "F2C"},
+				{"name" : "VAV127B-FLOW-RATE", "field" : "ZoneAirFlow", "transform" : "CFM2KGS"},
+				{"name" : "VAV127B-STANDBY", "field" : "StandbyModeStatus"},
+				{"name" : "VAV127B-OCCUPANCY", "field" : "OccupancyMode"}
+			]
+		},
+		"VAV129" : {
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV129/all",
+			"forward" : [
+				{"name" : "VAV129-ZONE-TEMP", "field" : "ZoneTemperature", "transform" : "F2C"},
+				{"name" : "VAV129-SUPPLY-TEMP", "field" : "ZoneDischargeAirTemperature", "transform" : "F2C"},
+				{"name" : "VAV129-FLOW-RATE", "field" : "ZoneAirFlow", "transform" : "CFM2KGS"},
+				{"name" : "VAV129-STANDBY", "field" : "StandbyModeStatus"},
+				{"name" : "VAV129-OCCUPANCY", "field" : "OccupancyMode"}
+			]
+		},
+		"VAV131" : {
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV131/all",
+			"forward" : [
+				{"name" : "VAV131-ZONE-TEMP", "field" : "ZoneTemperature (131)", "transform" : "F2C"},
+				{"name" : "VAV131-SUPPLY-TEMP", "field" : "ZoneDischargeAirTemperature", "transform" : "F2C"},
+				{"name" : "VAV131-FLOW-RATE", "field" : "ZoneAirFlow", "transform" : "CFM2KGS"},
+				{"name" : "VAV131-STANDBY", "field" : "StandbyModeStatus"},
+				{"name" : "VAV131-OCCUPANCY", "field" : "OccupancyMode"}
+			]
+		},
+		"VAV133" : {
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV133/all",
+			"forward" : [
+				{"name" : "VAV133-ZONE-TEMP", "field" : "ZoneTemperature", "transform" : "F2C"},
+				{"name" : "VAV133-SUPPLY-TEMP", "field" : "ZoneDischargeAirTemperature", "transform" : "F2C"},
+				{"name" : "VAV133-FLOW-RATE", "field" : "ZoneAirFlow", "transform" : "CFM2KGS"},
+				{"name" : "VAV133-STANDBY", "field" : "StandbyModeStatus"},
+				{"name" : "VAV133-OCCUPANCY", "field" : "OccupancyMode"}
+			]
+		},
+		"VAV136" : {
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV136/all",
+			"forward" : [
+				{"name" : "VAV136-ZONE-TEMP", "field" : "ZoneTemperature", "transform" : "F2C"},
+				{"name" : "VAV136-SUPPLY-TEMP", "field" : "ZoneDischargeAirTemperature", "transform" : "F2C"},
+				{"name" : "VAV136-FLOW-RATE", "field" : "ZoneAirFlow", "transform" : "CFM2KGS"},
+				{"name" : "VAV136-STANDBY", "field" : "StandbyModeStatus"},
+				{"name" : "VAV136-OCCUPANCY", "field" : "OccupancyMode"}
+			]
+		},
+		"VAV142" : {
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV142/all",
+			"forward" : [
+				{"name" : "VAV142-ZONE-TEMP", "field" : "ZoneTemperature", "transform" : "F2C"},
+				{"name" : "VAV142-SUPPLY-TEMP", "field" : "ZoneDischargeAirTemperature", "transform" : "F2C"},
+				{"name" : "VAV142-FLOW-RATE", "field" : "ZoneAirFlow", "transform" : "CFM2KGS"},
+				{"name" : "VAV142-STANDBY", "field" : "StandbyModeStatus"},
+				{"name" : "VAV142-OCCUPANCY", "field" : "OccupancyMode"}
+			]
+		},
+		"VAV143" : {
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV143/all",
+			"forward" : [
+				{"name" : "VAV143-ZONE-TEMP", "field" : "ZoneTemperature", "transform" : "F2C"},
+				{"name" : "VAV143-SUPPLY-TEMP", "field" : "ZoneDischargeAirTemperature", "transform" : "F2C"},
+				{"name" : "VAV143-FLOW-RATE", "field" : "ZoneAirFlow", "transform" : "CFM2KGS"},
+				{"name" : "VAV143-STANDBY", "field" : "StandbyModeStatus"},
+				{"name" : "VAV143-OCCUPANCY", "field" : "OccupancyMode"}
+			]
+		},
+		"VAV150" : {
+			"topic" : "devices/CAMPUS/BUILDING1/AHU1/VAV150/all",
+			"forward" : [
+				{"name" : "VAV150-ZONE-TEMP", "field" : "ZoneTemperature", "transform" : "F2C"},
+				{"name" : "VAV150-SUPPLY-TEMP", "field" : "ZoneDischargeAirTemperature", "transform" : "F2C"},
+				{"name" : "VAV150-FLOW-RATE", "field" : "ZoneAirFlow", "transform" : "CFM2KGS"},
+				{"name" : "VAV150-STANDBY", "field" : "StandbyModeStatus"},
+				{"name" : "VAV150-OCCUPANCY", "field" : "OccupancyMode"}
+			]
+		}
+    },
+    "outputs" : {
+		"VAV102-CLGSP" : {
+			"topic" : "CAMPUS/BUILDING1/AHU1/VAV102",
+			"handler" : "handleCoolingSetPoint"
+		},
+		"VAV118-CLGSP" : {
+			"topic" : "CAMPUS/BUILDING1/AHU1/VAV118",
+			"handler" : "handleCoolingSetPoint"
+		},
+		"VAV119-CLGSP" : {
+			"topic" : "CAMPUS/BUILDING1/AHU1/VAV119",
+			"handler" : "handleCoolingSetPoint"
+		},
+		"VAV120-CLGSP" : {
+			"topic" : "CAMPUS/BUILDING1/AHU1/VAV120",
+			"handler" : "handleCoolingSetPoint"
+		},
+		"VAV123A-CLGSP" : {
+			"topic" : "CAMPUS/BUILDING1/AHU1/VAV123A",
+			"handler" : "handleCoolingSetPoint"
+		},
+		"VAV127A-CLGSP" : {
+			"topic" : "CAMPUS/BUILDING1/AHU1/VAV127A",
+			"handler" : "handleCoolingSetPoint"
+		},
+		"VAV127B-CLGSP" : {
+			"topic" : "CAMPUS/BUILDING1/AHU1/VAV127B",
+			"handler" : "handleCoolingSetPoint"
+		},
+		"VAV129-CLGSP" : {
+			"topic" : "CAMPUS/BUILDING1/AHU1/VAV129",
+			"handler" : "handleCoolingSetPoint"
+		},
+		"VAV131-CLGSP" : {
+			"topic" : "CAMPUS/BUILDING1/AHU1/VAV131",
+			"handler" : "handleCoolingSetPoint"
+		},
+		"VAV133-CLGSP" : {
+			"topic" : "CAMPUS/BUILDING1/AHU1/VAV133",
+			"handler" : "handleCoolingSetPoint"
+		},
+		"VAV136-CLGSP" : {
+			"topic" : "CAMPUS/BUILDING1/AHU1/VAV136",
+			"handler" : "handleCoolingSetPoint"
+		},
+		"VAV142-CLGSP" : {
+			"topic" : "CAMPUS/BUILDING1/AHU1/VAV142",
+			"handler" : "handleCoolingSetPoint"
+		},
+		"VAV143-CLGSP" : {
+			"topic" : "CAMPUS/BUILDING1/AHU1/VAV143",
+			"handler" : "handleCoolingSetPoint"
+		},
+		"VAV150-CLGSP" : {
+			"topic" : "CAMPUS/BUILDING1/AHU1/VAV150",
+			"handler" : "handleCoolingSetPoint"
+		},
+		"VAV100-CLGSP" : {
+			"topic" : "CAMPUS/BUILDING1/AHU1/VAV100",
+			"handler" : "handleCoolingSetPoint"
+		},
+		"VAV121-CLGSP" : {
+			"topic" : "CAMPUS/BUILDING1/AHU1/VAV121",
+			"handler" : "handleCoolingSetPoint"
+		},
+		"OUTDOOR-TEMP" : {
+			"topic" : "BUILDING1/OUTDOOR-TEMP"
+		},
+		"VAV102-ZONE-TEMP" : {
+			"topic" : "BUILDING1/VAV102-ZONE-TEMP"
+		},
+		"VAV118-ZONE-TEMP" : {
+			"topic" : "BUILDING1/VAV118-ZONE-TEMP"
+		},
+		"VAV119-ZONE-TEMP" : {
+			"topic" : "BUILDING1/VAV119-ZONE-TEMP"
+		},
+		"VAV120-ZONE-TEMP" : {
+			"topic" : "BUILDING1/VAV120-ZONE-TEMP"
+		},
+		"VAV123A-ZONE-TEMP" : {
+			"topic" : "BUILDING1/VAV123A-ZONE-TEMP"
+		},
+		"VAV123B-ZONE-TEMP" : {
+			"topic" : "BUILDING1/VAV123B-ZONE-TEMP"
+		},
+		"VAV127A-ZONE-TEMP" : {
+			"topic" : "BUILDING1/VAV127A-ZONE-TEMP"
+		},
+		"VAV127B-ZONE-TEMP" : {
+			"topic" : "BUILDING1/VAV127B-ZONE-TEMP"
+		},
+		"VAV129-ZONE-TEMP" : {
+			"topic" : "BUILDING1/VAV129-ZONE-TEMP"
+		},
+		"VAV131-ZONE-TEMP" : {
+			"topic" : "BUILDING1/VAV131-ZONE-TEMP"
+		},
+		"VAV133-ZONE-TEMP" : {
+			"topic" : "BUILDING1/VAV133-ZONE-TEMP"
+		},
+		"VAV136-ZONE-TEMP" : {
+			"topic" : "BUILDING1/VAV136-ZONE-TEMP"
+		},
+		"VAV142-ZONE-TEMP" : {
+			"topic" : "BUILDING1/VAV142-ZONE-TEMP"
+		},
+		"VAV143-ZONE-TEMP" : {
+			"topic" : "BUILDING1/VAV143-ZONE-TEMP"
+		},
+		"VAV150-ZONE-TEMP" : {
+			"topic" : "BUILDING1/VAV150-ZONE-TEMP"
+		},
+		"VAV100-ZONE-TEMP" : {
+			"topic" : "BUILDING1/VAV100-ZONE-TEMP"
+		},
+		"VAV121-ZONE-TEMP" : {
+			"topic" : "BUILDING1/VAV121-ZONE-TEMP"
+		},
+		"VAV102-FLOW-RATE" : {
+			"topic" : "BUILDING1/VAV102-FLOW-RATE"
+		},
+		"VAV118-FLOW-RATE" : {
+			"topic" : "BUILDING1/VAV118-FLOW-RATE"
+		},
+		"VAV119-FLOW-RATE" : {
+			"topic" : "BUILDING1/VAV119-FLOW-RATE"
+		},
+		"VAV120-FLOW-RATE" : {
+			"topic" : "BUILDING1/VAV120-FLOW-RATE"
+		},
+		"VAV123A-FLOW-RATE" : {
+			"topic" : "BUILDING1/VAV123A-FLOW-RATE"
+		},
+		"VAV123B-FLOW-RATE" : {
+			"topic" : "BUILDING1/VAV123B-FLOW-RATE"
+		},
+		"VAV127A-FLOW-RATE" : {
+			"topic" : "BUILDING1/VAV127A-FLOW-RATE"
+		},
+		"VAV127B-FLOW-RATE" : {
+			"topic" : "BUILDING1/VAV127B-FLOW-RATE"
+		},
+		"VAV129-FLOW-RATE" : {
+			"topic" : "BUILDING1/VAV129-FLOW-RATE"
+		},
+		"VAV131-FLOW-RATE" : {
+			"topic" : "BUILDING1/VAV131-FLOW-RATE"
+		},
+		"VAV133-FLOW-RATE" : {
+			"topic" : "BUILDING1/VAV133-FLOW-RATE"
+		},
+		"VAV136-FLOW-RATE" : {
+			"topic" : "BUILDING1/VAV136-FLOW-RATE"
+		},
+		"VAV142-FLOW-RATE" : {
+			"topic" : "BUILDING1/VAV142-FLOW-RATE"
+		},
+		"VAV143-FLOW-RATE" : {
+			"topic" : "BUILDING1/VAV143-FLOW-RATE"
+		},
+		"VAV150-FLOW-RATE" : {
+			"topic" : "BUILDING1/VAV150-FLOW-RATE"
+		},
+		"VAV100-FLOW-RATE" : {
+			"topic" : "BUILDING1/VAV100-FLOW-RATE"
+		},
+		"VAV121-FLOW-RATE" : {
+			"topic" : "BUILDING1/VAV121-FLOW-RATE"
+		},
+		"VAV102-SUPPLY-TEMP" : {
+			"topic" : "BUILDING1/VAV102-SUPPLY-TEMP"
+		},
+		"VAV118-SUPPLY-TEMP" : {
+			"topic" : "BUILDING1/VAV118-SUPPLY-TEMP"
+		},
+		"VAV119-SUPPLY-TEMP" : {
+			"topic" : "BUILDING1/VAV119-SUPPLY-TEMP"
+		},
+		"VAV120-SUPPLY-TEMP" : {
+			"topic" : "BUILDING1/VAV120-SUPPLY-TEMP"
+		},
+		"VAV123A-SUPPLY-TEMP" : {
+			"topic" : "BUILDING1/VAV123A-SUPPLY-TEMP"
+		},
+		"VAV123B-SUPPLY-TEMP" : {
+			"topic" : "BUILDING1/VAV123B-SUPPLY-TEMP"
+		},
+		"VAV127A-SUPPLY-TEMP" : {
+			"topic" : "BUILDING1/VAV127A-SUPPLY-TEMP"
+		},
+		"VAV127B-SUPPLY-TEMP" : {
+			"topic" : "BUILDING1/VAV127B-SUPPLY-TEMP"
+		},
+		"VAV129-SUPPLY-TEMP" : {
+			"topic" : "BUILDING1/VAV129-SUPPLY-TEMP"
+		},
+		"VAV131-SUPPLY-TEMP" : {
+			"topic" : "BUILDING1/VAV131-SUPPLY-TEMP"
+		},
+		"VAV133-SUPPLY-TEMP" : {
+			"topic" : "BUILDING1/VAV133-SUPPLY-TEMP"
+		},
+		"VAV136-SUPPLY-TEMP" : {
+			"topic" : "BUILDING1/VAV136-SUPPLY-TEMP"
+		},
+		"VAV142-SUPPLY-TEMP" : {
+			"topic" : "BUILDING1/VAV142-SUPPLY-TEMP"
+		},
+		"VAV143-SUPPLY-TEMP" : {
+			"topic" : "BUILDING1/VAV143-SUPPLY-TEMP"
+		},
+		"VAV150-SUPPLY-TEMP" : {
+			"topic" : "BUILDING1/VAV150-SUPPLY-TEMP"
+		},
+		"VAV100-SUPPLY-TEMP" : {
+			"topic" : "BUILDING1/VAV100-SUPPLY-TEMP"
+		},
+		"VAV121-SUPPLY-TEMP" : {
+			"topic" : "BUILDING1/VAV121-SUPPLY-TEMP"
+		},
+		"VAV102-OCCUPANCY" : {
+			"topic" : "BUILDING1/VAV102-OCCUPANCY"
+		},
+		"VAV118-OCCUPANCY" : {
+			"topic" : "BUILDING1/VAV118-OCCUPANCY"
+		},
+		"VAV119-OCCUPANCY" : {
+			"topic" : "BUILDING1/VAV119-OCCUPANCY"
+		},
+		"VAV120-OCCUPANCY" : {
+			"topic" : "BUILDING1/VAV120-OCCUPANCY"
+		},
+		"VAV123A-OCCUPANCY" : {
+			"topic" : "BUILDING1/VAV123A-OCCUPANCY"
+		},
+		"VAV123B-OCCUPANCY" : {
+			"topic" : "BUILDING1/VAV123B-OCCUPANCY"
+		},
+		"VAV127A-OCCUPANCY" : {
+			"topic" : "BUILDING1/VAV127A-OCCUPANCY"
+		},
+		"VAV127B-OCCUPANCY" : {
+			"topic" : "BUILDING1/VAV127B-OCCUPANCY"
+		},
+		"VAV129-OCCUPANCY" : {
+			"topic" : "BUILDING1/VAV129-OCCUPANCY"
+		},
+		"VAV131-OCCUPANCY" : {
+			"topic" : "BUILDING1/VAV131-OCCUPANCY"
+		},
+		"VAV133-OCCUPANCY" : {
+			"topic" : "BUILDING1/VAV133-OCCUPANCY"
+		},
+		"VAV136-OCCUPANCY" : {
+			"topic" : "BUILDING1/VAV136-OCCUPANCY"
+		},
+		"VAV142-OCCUPANCY" : {
+			"topic" : "BUILDING1/VAV142-OCCUPANCY"
+		},
+		"VAV143-OCCUPANCY" : {
+			"topic" : "BUILDING1/VAV143-OCCUPANCY"
+		},
+		"VAV150-OCCUPANCY" : {
+			"topic" : "BUILDING1/VAV150-OCCUPANCY"
+		},
+		"VAV100-OCCUPANCY" : {
+			"topic" : "BUILDING1/VAV100-OCCUPANCY"
+		},
+		"VAV121-OCCUPANCY" : {
+			"topic" : "BUILDING1/VAV121-OCCUPANCY"
+		},
+		"VAV102-STANDBY" : {
+			"topic" : "BUILDING1/VAV102-STANDBY"
+		},
+		"VAV118-STANDBY" : {
+			"topic" : "BUILDING1/VAV118-STANDBY"
+		},
+		"VAV119-STANDBY" : {
+			"topic" : "BUILDING1/VAV119-STANDBY"
+		},
+		"VAV120-STANDBY" : {
+			"topic" : "BUILDING1/VAV120-STANDBY"
+		},
+		"VAV123A-STANDBY" : {
+			"topic" : "BUILDING1/VAV123A-STANDBY"
+		},
+		"VAV123B-STANDBY" : {
+			"topic" : "BUILDING1/VAV123B-STANDBY"
+		},
+		"VAV127A-STANDBY" : {
+			"topic" : "BUILDING1/VAV127A-STANDBY"
+		},
+		"VAV127B-STANDBY" : {
+			"topic" : "BUILDING1/VAV127B-STANDBY"
+		},
+		"VAV129-STANDBY" : {
+			"topic" : "BUILDING1/VAV129-STANDBY"
+		},
+		"VAV131-STANDBY" : {
+			"topic" : "BUILDING1/VAV131-STANDBY"
+		},
+		"VAV133-STANDBY" : {
+			"topic" : "BUILDING1/VAV133-STANDBY"
+		},
+		"VAV136-STANDBY" : {
+			"topic" : "BUILDING1/VAV136-STANDBY"
+		},
+		"VAV142-STANDBY" : {
+			"topic" : "BUILDING1/VAV142-STANDBY"
+		},
+		"VAV143-STANDBY" : {
+			"topic" : "BUILDING1/VAV143-STANDBY"
+		},
+		"VAV150-STANDBY" : {
+			"topic" : "BUILDING1/VAV150-STANDBY"
+		},
+		"VAV100-STANDBY" : {
+			"topic" : "BUILDING1/VAV100-STANDBY"
+		},
+		"VAV121-STANDBY" : {
+			"topic" : "BUILDING1/VAV121-STANDBY"
+		},
+		"AHU001-SUPPLY-TEMP" : {
+			"topic" : "BUILDING1/AHU001-SUPPLY-TEMP"
+		},
+		"AHU001-RETURN-TEMP" : {
+			"topic" : "BUILDING1/AHU001-RETURN-TEMP"
+		},
+		"AHU001-MIXED-TEMP" : {
+			"topic" : "BUILDING1/AHU001-MIXED-TEMP"
+		},
+		"AHU001-ONOFF" : {
+			"topic" : "BUILDING1/AHU001-ONOFF"
+		},
+		"AHU001-FLOW-RATE" : {
+			"topic" : "BUILDING1/AHU001-FLOW-RATE"
+		},
+		"AHU001-STATIC-PRESSURE" : {
+			"topic" : "BUILDING1/AHU001-STATIC-PRESSURE"
+		}
+    }
+}

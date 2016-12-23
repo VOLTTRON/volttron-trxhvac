@@ -1,0 +1,12 @@
+{
+    "outputs" : {
+		"connect" : {
+			"topic" : "BUILDING1/CONNECT",
+			"value" : 1
+		},
+		"actuate" : {
+			"topic" : "BUILDING1/ACTUATE",
+			"value" : 1
+		}
+    }
+}

@@ -8,10 +8,12 @@
 ../vmarket/pnnl/plotteragent	config/PlotterSetpoint	plotter-setpoint
 ./pnnl/meteragent	config/ElectricityMeter	electricity-meter
 ./pnnl/ahuchilleragent	config/AHU-001	ahu-001
+./pnnl/vavagent	config/VAV-100	vav-100
 ./pnnl/vavagent	config/VAV-102	vav-102
 ./pnnl/vavagent	config/VAV-118	vav-118
 ./pnnl/vavagent	config/VAV-119	vav-119
 ./pnnl/vavagent	config/VAV-120	vav-120
+./pnnl/vavagent	config/VAV-121	vav-121
 ./pnnl/vavagent	config/VAV-123A	vav-123A
 ./pnnl/vavagent	config/VAV-123B	vav-123B
 ./pnnl/vavagent	config/VAV-127A	vav-127A
@@ -23,6 +25,4 @@
 ./pnnl/vavagent	config/VAV-142	vav-142
 ./pnnl/vavagent	config/VAV-143	vav-143
 ./pnnl/vavagent	config/VAV-150	vav-150
-./pnnl/vavagent	config/VAV-CORRIDOR	vav-corridor
-./pnnl/vavagent	config/VAV-RESTROOM	vav-restroom
 ../volttron-energyplus/pnnl/energyplusagent	config/EnergyPlus	energyplus

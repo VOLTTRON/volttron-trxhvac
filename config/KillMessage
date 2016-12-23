@@ -1,0 +1,8 @@
+{
+    "outputs" : {
+		"kill" : {
+			"topic" : "BUILDING1/KILL",
+			"value" : 1
+		}
+    }
+}
